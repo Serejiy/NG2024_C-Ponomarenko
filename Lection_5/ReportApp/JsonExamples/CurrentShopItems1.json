@@ -1,0 +1,25 @@
+﻿[
+  {
+    "Point Of Purchase": "Mourning Fields",
+    "Items": [
+      {
+        "Name": "Darkness",
+        "Quantity": 25,
+        "Cost": 25,
+        "Notes": "Amount gained increased by Dark Thirst after purchase"
+      },
+      {
+        "Name": "Pom slice",
+        "Quantity": 3,
+        "Cost": 50,
+        "Notes": "+1 Lv. to a random Boon"
+      },
+      {
+        "Name": "Centaur Heart",
+        "Quantity": 1,
+        "Cost": 150
+      }
+    ],
+    "Seller": "Charon"
+  }
+]

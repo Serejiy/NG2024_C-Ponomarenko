@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="JsonExamples\ActivityReportAdminGenerated.json" />
+    <None Remove="JsonExamples\ActivityReportClientGenerated.json" />
+    <None Remove="JsonExamples\Configuration.json" />
+    <None Remove="JsonExamples\CurrentShopItems.json" />
+    <None Remove="JsonExamples\CurrentShopItems1.json" />
+    <None Remove="JsonExamples\CurrentShopItems2.json" />
+    <None Remove="ReportConfigurations\Activity.json" />
+	<None Remove="ReportConfigurations\Shop.json" />
+	<None Remove="Reports\Shop.json" />
+    <None Remove="Templates\ActivityReport.xlsx" />
+	 <None Remove="Templates\ShopReport.xlsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <Content Include="ReportConfigurations\Shop.json">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+    <Content Include="JsonExamples\ActivityReportAdminGenerated.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonExamples\CurrentShopItems1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonExamples\CurrentShopItems2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JsonExamples\CurrentShopItems.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportConfigurations\Activity.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="JsonExamples\ActivityReportClientGenerated.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Request\Request.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\ActivityReport.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\ShopReport.xlsx">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+    <PackageReference Include="ClosedXML.Report" Version="0.2.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Reports\" />
+  </ItemGroup>
+
+</Project>

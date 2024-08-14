@@ -1,0 +1,50 @@
+﻿{
+  "GeneratedByAdmin": {
+    "FirstName": "Soul",
+    "LastName": "Of Cinder",
+    "PreferedName": "Final boss",
+    "Pronouns": "Soul/Soul",
+    "City": "The Klin of the First Flame"
+  },
+  "WorkdayStartTime": "2024-06-23T08:00:00+03:00",
+  "WorkdayEndTime": "2024-06-23T18:00:00+03:00",
+  "Office": "King's Landing",
+  "ReportGeneratedFor": {
+    "FirstName": "John",
+    "LastName": "Snow",
+    "PreferedName": "THE TRUE KING",
+    "City": "Winterfell"
+  },
+  "Complains": [
+    {
+      "Description": "Killed the Queen on working hours"
+    },
+    {
+      "Description": "Didn't piss of the Wall"
+    },
+    {
+      "Description": "Killed the Queen on working hours"
+    },
+    {
+      "Description": "Didn't piss of the Wall"
+    },
+    {
+      "Description": "Killed the Queen on working hours"
+    },
+    {
+      "Description": "Didn't piss of the Wall"
+    },
+    {
+      "Description": "Killed the Queen on working hours"
+    },
+    {
+      "Description": "Didn't piss of the Wall"
+    },
+    {
+      "Description": "Killed the Queen on working hours"
+    },
+    {
+      "Description": "Didn't piss of the Wall"
+    }
+  ]
+}

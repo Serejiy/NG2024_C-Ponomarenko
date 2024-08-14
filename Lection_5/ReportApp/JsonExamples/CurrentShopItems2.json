@@ -1,0 +1,70 @@
+﻿[
+  {
+    "Point Of Purchase": "Mourning Fields",
+    "Items": [
+      {
+        "Name": "Darkness",
+        "Quantity": 25,
+        "Cost": 25,
+        "Notes": "Amount gained increased by Dark Thirst after purchase"
+      },
+      {
+        "Name": "Pom slice",
+        "Quantity": 3,
+        "Cost": 50,
+        "Notes": "+1 Lv. to a random Boon"
+      },
+      {
+        "Name": "Centaur Heart",
+        "Quantity": 1,
+        "Cost": 150
+      }
+    ],
+    "Seller": "Charon"
+  },
+  {
+    "Point Of Purchase": "Well of Charon",
+    "Items": [
+      {
+        "Name": "Braid of Atlas",
+        "Quantity": 1,
+        "Cost": 30,
+        "Notes": "Casts Deal +35% damage for the next five encounters."
+      },
+      {
+        "Name": "Expiring Deal",
+        "Quantity": 1,
+        "Cost": 80,
+        "Notes": "Ensure any goods offered by Charon cost less for the next six encounters."
+      },
+      {
+        "Name": "HydraLite",
+        "Quantity": 1,
+        "Cost": 30,
+        "Notes": "Restore 10% HP whenever you enter a Location for the next three encounters"
+      }
+    ],
+    "Seller": "Well"
+  },
+  {
+    "Point Of Purchase": "Steam",
+    "Items": [
+      {
+        "Name": "Hades",
+        "Quantity": 150,
+        "Cost": 60
+      },
+      {
+        "Name": "Dark Souls 3",
+        "Quantity": 12,
+        "Cost": 80
+      },
+      {
+        "Name": "Cult of The Lamb",
+        "Quantity": 120,
+        "Cost": 400
+      }
+    ],
+    "Seller": "RogueLikeStore"
+  }
+]
